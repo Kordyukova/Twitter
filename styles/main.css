@@ -67,6 +67,7 @@ body, ::placeholder {
 
   mask-size: cover;
   -webkit-mask-size: cover;
+  -webkit-mask-position: center;
 }
 .menu li:hover .menu__icn {
   background-color: var(--accent-color);
@@ -74,18 +75,26 @@ body, ::placeholder {
 .menu__icn--home {
   mask: url(../img/home-icn.svg);
   -webkit-mask: url(../img/home-icn.svg);
+  -webkit-mask-size: cover;
+  -webkit-mask-position: center;
 }
 .menu__icn--bell {
   mask: url(../img/home-icn.svg);
   -webkit-mask: url(../img/bell-icn.svg);
+  -webkit-mask-size: cover;
+  -webkit-mask-position: center;
 }
 .menu__icn--chat {
   mask: url(../img/home-icn.svg);
   -webkit-mask: url(../img/chat-icn.svg);
+  -webkit-mask-size: cover;
+  -webkit-mask-position: center;
 }
 .menu__icn--bookmark {
   mask: url(../img/home-icn.svg);
   -webkit-mask: url(../img/bookmark-icn.svg);
+  -webkit-mask-size: cover;
+  -webkit-mask-position: center;
 }
 .menu a {
   padding: 16px 55px;
@@ -104,7 +113,7 @@ body, ::placeholder {
 }
 
 
-/* Центральная секция с чатами */
+/* Чаты */
 
 main {
   display: flex;
@@ -193,7 +202,7 @@ main > * {
 }
 
 
-/* Открытый чат */
+/* Диалог */
 
 .chat header {
   display: flex;
